@@ -86,7 +86,6 @@ p {
 
 .v {
     background-color: #8ea1e1;
-    margin-top: 20px;
     color: var(--col-bianco)
 }
 
@@ -141,9 +140,12 @@ header {
 .navigazione {
     width: calc(100% / 5);
     font-size: 15px;
-    color: var(--col-bianco);
     padding-top: 8px;
-    cursor: pointer;
+}
+
+.nav_a {
+    color: var(--col-bianco);
+    text-decoration: none;
 }
 
 
@@ -255,9 +257,6 @@ footer {
     filter: invert(100%) sepia(91%) saturate(1114%) hue-rotate(191deg) brightness(125%) contrast(93%);
 }
 
-.a, .b {
-    width: calc(100% / 5);
-}
 
 .a {
     padding-right: 20px;
@@ -265,7 +264,6 @@ footer {
 
 .pdt {
     padding-top: 5px;
-    color: var(--col-bianco);
 }
 
 hr {
@@ -287,9 +285,6 @@ hr {
     color: var(--col-azzurrino);
 }
 
-.pdt, .cb {
-    cursor: pointer;
-}
 
 .onda {
     margin-bottom: -5px;
@@ -303,6 +298,16 @@ hr {
 .waveb {
     filter: invert(100%) sepia(91%) saturate(1114%) hue-rotate(191deg) brightness(125%) contrast(93%);
     transform: rotate(180deg);
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.cw {
+    text-decoration: none;
+    color: var(--col-bianco);
+
 }
 
 
