@@ -24,17 +24,9 @@ body {
     margin: auto;
 }
 
-/* fine regole generali*/
-
-
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;   
-}
-
-
-.giallo {
-    padding-top: 35px;
 }
 
 .row {
@@ -42,34 +34,15 @@ h2 {
 }
 
 
-.card {
-    background-color: blue;
-}
 
-.grande, .piccola {
-    padding: 30px;
-}
+/* fine regole generali*/
 
-.grande {
-    width: 70%;
-}
-
-.piccola {
-    width: 30%;
-}
-
-.main_bianco {
-    background-color: white;
-}
 
 .main_grigio {
     background-color: lightgrey;
 }
 
 
-.big, .small {
-    width: 100%;
-}
 
 section {
     padding-bottom: 2rem;
@@ -110,6 +83,17 @@ p {
     background-color: var(--col-nero);
 }
 
+.v {
+    background-color: purple;
+    margin-top: 20px;
+    color: var(--col-bianco)
+}
+
+header {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+}
+
 
 .blu {
     padding: 80px;
@@ -138,10 +122,69 @@ p {
 }
 
 
-
-
 /*fine header*/
 
+/*inizio main*/
+
+.main_bianco {
+    background-color: white;
+}
+
+.giallo {
+    padding-top: 35px;
+    background-color: yellow;
+    height: 600px;
+}
+
+.grande, .piccola {
+    padding: 30px;
+}
+
+.grande {
+    width: 70%;
+}
+
+.piccola {
+    width: 30%;
+}
+
+.big, .small {
+    width: 100%;
+}
+
+.row {
+    background-color: blue;
+    height: 500px;
+}
+
+.col {
+    background-color: red;
+}
+
+.card {
+    background-color: green;
+}
+
+/*ultima sezione main*/
+
+
+.avventura {
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-position: bottom;
+}
+
+.container_piccolo {
+    width: 50%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+
+/*fine main*/
 
 
 
@@ -187,20 +230,14 @@ p {
     text-align: center;
 }
 
-
-
-.blu {
-    padding: 80px;
+.centro {
+    text-align: center;
 }
 
 
 
-header {
-    background-image: url(./img/jumbo.png);
-    background-size: cover;
-}
 
-/*fine header*/
+
 
 footer {
     background-color: blue;
