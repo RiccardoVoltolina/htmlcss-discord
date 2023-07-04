@@ -84,10 +84,21 @@ p {
 }
 
 .v {
-    background-color: purple;
+    background-color: #8ea1e1;
     margin-top: 20px;
     color: var(--col-bianco)
 }
+
+.left, .right {
+    width: 25%;
+}
+
+.right{
+    text-align: right;
+    padding-top: 4px;
+
+}
+
 
 header {
     background-image: url(./img/jumbo.png);
@@ -121,6 +132,20 @@ header {
     text-align: center;
 }
 
+.left {
+    cursor: pointer;
+}
+
+
+.navigazione {
+    width: calc(100% / 5);
+    font-size: 15px;
+    color: var(--col-bianco);
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+
 
 /*fine header*/
 
@@ -132,8 +157,6 @@ header {
 
 .giallo {
     padding-top: 35px;
-    background-color: yellow;
-    height: 600px;
 }
 
 .grande, .piccola {
@@ -150,19 +173,6 @@ header {
 
 .big, .small {
     width: 100%;
-}
-
-.row {
-    background-color: blue;
-    height: 500px;
-}
-
-.col {
-    background-color: red;
-}
-
-.card {
-    background-color: green;
 }
 
 /*ultima sezione main*/
@@ -189,18 +199,6 @@ header {
 
 
 
-.left {
-    cursor: pointer;
-}
-
-
-.navigazione {
-    width: calc(100% / 5);
-    font-size: 15px;
-    color: var(--col-bianco);
-    padding-top: 8px;
-    cursor: pointer;
-}
 
 
 .access {
@@ -214,15 +212,6 @@ header {
 }
 
 
-.left, .right {
-    width: 25%;
-}
-
-.right{
-    text-align: right;
-    padding-top: 4px;
-
-}
 
 
 .center {
@@ -240,12 +229,13 @@ header {
 
 
 footer {
-    background-color: blue;
+    background-color: var(--col-nero);
 }
 
 .riga {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    justify-content:space-around;
 }
 
 .linea {
@@ -253,11 +243,51 @@ footer {
 }
 
 .finale {
-    height: 25px;
-    width: 70px;
-    background-color: green;
+    padding-top: 20px;
 }
 
+
+
+.disegno {
+    height:15px ;
+    padding-right: 15px;
+}
+
+.a, .b {
+    width: calc(100% / 5);
+}
+
+.a {
+    padding-right: 20px;
+}
+
+.pdt {
+    padding-top: 5px;
+    color: var(--col-bianco);
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.ita {
+    height: 15px;
+}
+
+.bandiera {
+    padding: 10px 0;
+    color: var(--col-bianco);
+}
+
+.cb {
+    color: var(--col-azzurrino);
+}
+
+.pdt, .cb {
+    cursor: pointer;
+}
 
 
 
