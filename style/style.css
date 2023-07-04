@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.giallo {
+    background-color: yellow;
+    height: 400px;
+    padding-top: 35px;
+}
+
+.row {
+    background-color: brown;
+    height: 300px;
+    padding: 20px;
+}
+
+.col {
+    background-color: green;
+    border: 1px solid black;
+}
+
+.card {
+    background-color: blue;
+}
+
+.grande, .piccola {
+    padding: 30px;
+}
+
+.grande {
+    width: 70%;
+}
+
+.piccola {
+    width: 30%;
+}
+
+.main_bianco {
+    background-color: white;
+}
+
+.main_grigio {
+    background-color: lightgrey;
+}
+
+
+.big, .small {
+    height: 200px;
+    width: 100%;
+}
+
+section {
+    padding-bottom: 2rem;
+}
+
+.a {
+    width: 40%;
+}
+
+.b {
+    width: 15%;
+    margin-left: 5px;
+}
+
+
+
+
+
+/* fine regole generali*/
+
+
+.nav{
+    height: 20px;
+}
+
+.row_rosso {
+    background-color: brown;
+    height: 200px;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: red;
+}
+
+nav {
+    height: 50px;
+}
+
+
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width: 50%;
+}
+
+.contenitore_grigio {
+    width: 60%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.grigio {
+    background-color: gray;
+    height: 200px;
+}
+
+.blu {
+    background-color: blue;
+    height: 400px;
+    padding: 80px;
+}
+
+/*fine header*/
+
+footer {
+    background-color: blue;
+}
+
+.riga {
+    background-color: brown;
+    height: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.linea {
+    background-color: brown;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.finale {
+    height: 25px;
+    width: 70px;
+    background-color: green;
+}
+
+
+
+
