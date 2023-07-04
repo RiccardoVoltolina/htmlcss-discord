@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
 :root {
     --col-azzurrino:#3161e0 ;
     --col-bianco:#ffffff ;
@@ -19,6 +23,15 @@
     max-width: 1170px;
     margin: auto;
 }
+
+/* fine regole generali*/
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;   
+}
+
 
 .giallo {
     padding-top: 35px;
@@ -62,20 +75,76 @@ section {
     padding-bottom: 2rem;
 }
 
-.a {
-    width: 40%;
+
+.center {
+    text-align: center;
+}
+
+p {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+/*header*/
+
+
+/*bottoni*/
+
+.bottoni {
+    justify-content: space-evenly;
+}
+
+.bottone {
+    border-radius: 25px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.w {
+    background-color: var(--col-bianco);
+    color: var(--col-nero);
 }
 
 .b {
-    width: 15%;
-    margin-left: 5px;
+    background-color: var(--col-nero);
+}
+
+
+.blu {
+    padding: 80px;
+}
+
+.accedi {
+    background-color: var(--col-bianco);
+    color: var(--col-nero);
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 13px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.contenitore_grigio {
+    width: 50%;
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+    color: var(--col-bianco);
+}
+
+.grigio {
+    text-align: center;
 }
 
 
 
 
+/*fine header*/
 
-/* fine regole generali*/
+
+
+
 
 .left {
     cursor: pointer;
@@ -95,15 +164,6 @@ section {
     width: 25%;
 }
 
-.accedi {
-    background-color: var(--col-bianco);
-    color: var(--col-nero);
-    height: 30px;
-    border-radius: 10px;
-    padding-right: 13px;
-    padding-top: 5px;
-    cursor: pointer;
-}
 
 
 .row_rosso {
@@ -117,7 +177,7 @@ section {
 
 .right{
     text-align: right;
-    padding-top: 6px;
+    padding-top: 4px;
 
 }
 
@@ -127,17 +187,13 @@ section {
     text-align: center;
 }
 
-.contenitore_grigio {
-    width: 60%;
-    max-width: 1170px;
-    margin: auto;
-}
 
 
 .blu {
-    height: 400px;
     padding: 80px;
 }
+
+
 
 header {
     background-image: url(./img/jumbo.png);
