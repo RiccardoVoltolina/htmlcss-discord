@@ -64,11 +64,12 @@ p {
 
 /*bottoni*/
 
-.bottoni {
+.container_buttons {
+    padding: 0 100px;
     justify-content: space-evenly;
 }
 
-.bottone {
+.button {
     border-radius: 25px;
     height: 40px;
     padding: 8px;
@@ -84,7 +85,7 @@ p {
     background-color: var(--col-nero);
 }
 
-.v {
+.viola {
     background-color: #8ea1e1;
     color: var(--col-bianco)
 }
@@ -195,6 +196,9 @@ header {
     margin: auto;
 }
 
+.last_section_p {
+    margin: 0 170px;
+}
 
 
 /*fine main*/
@@ -262,9 +266,17 @@ footer {
     padding-right: 20px;
 }
 
-.pdt {
+
+
+.col.b div {
     padding-top: 5px;
 }
+
+.col.b div a {
+    text-decoration: none;
+    color: var(--col-bianco);
+}
+
 
 hr {
     margin-top: 10px;
@@ -282,7 +294,7 @@ hr {
 }
 
 .cb {
-    color: var(--col-azzurrino);
+    color: #8ea1e1;
 }
 
 
@@ -304,11 +316,6 @@ hr {
     margin-top: 20px;
 }
 
-.cw {
-    text-decoration: none;
-    color: var(--col-bianco);
-
-}
 
 
 
