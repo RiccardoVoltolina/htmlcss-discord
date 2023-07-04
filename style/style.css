@@ -12,6 +12,7 @@ body {
     --col-azzurrino:#3161e0 ;
     --col-bianco:#ffffff ;
     --col-nero:#23272a ;
+    --col-grigio:#f6f6f6;
 }
 
 .flex {
@@ -39,7 +40,7 @@ h2 {
 
 
 .main_grigio {
-    background-color: lightgrey;
+    background-color: var(--col-grigio);
 }
 
 
@@ -251,6 +252,7 @@ footer {
 .disegno {
     height:15px ;
     padding-right: 15px;
+    filter: invert(100%) sepia(91%) saturate(1114%) hue-rotate(191deg) brightness(125%) contrast(93%);
 }
 
 .a, .b {
@@ -287,6 +289,20 @@ hr {
 
 .pdt, .cb {
     cursor: pointer;
+}
+
+.onda {
+    margin-bottom: -5px;
+}
+
+.wave {
+    filter: invert(100%) sepia(91%) saturate(1114%) hue-rotate(191deg) brightness(125%) contrast(93%);
+}
+
+
+.waveb {
+    filter: invert(100%) sepia(91%) saturate(1114%) hue-rotate(191deg) brightness(125%) contrast(93%);
+    transform: rotate(180deg);
 }
 
 
