@@ -21,21 +21,13 @@
 }
 
 .giallo {
-    background-color: yellow;
-    height: 400px;
     padding-top: 35px;
 }
 
 .row {
-    background-color: brown;
-    height: 300px;
     padding: 20px;
 }
 
-.col {
-    background-color: green;
-    border: 1px solid black;
-}
 
 .card {
     background-color: blue;
@@ -63,7 +55,6 @@
 
 
 .big, .small {
-    height: 200px;
     width: 100%;
 }
 
@@ -86,33 +77,54 @@ section {
 
 /* fine regole generali*/
 
-
-.nav{
-    height: 20px;
+.left {
+    cursor: pointer;
 }
+
+
+.navigazione {
+    width: calc(100% / 5);
+    font-size: 15px;
+    color: var(--col-bianco);
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+
+.access {
+    width: 25%;
+}
+
+.accedi {
+    background-color: var(--col-bianco);
+    color: var(--col-nero);
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 13px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
 
 .row_rosso {
-    background-color: brown;
-    height: 200px;
     padding-top: 15px;
 }
-
-nav {
-    background-color: red;
-}
-
-nav {
-    height: 50px;
-}
-
 
 
 .left, .right {
     width: 25%;
 }
 
+.right{
+    text-align: right;
+    padding-top: 6px;
+
+}
+
+
 .center {
     width: 50%;
+    text-align: center;
 }
 
 .contenitore_grigio {
@@ -121,15 +133,15 @@ nav {
     margin: auto;
 }
 
-.grigio {
-    background-color: gray;
-    height: 200px;
-}
 
 .blu {
-    background-color: blue;
     height: 400px;
     padding: 80px;
+}
+
+header {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
 }
 
 /*fine header*/
@@ -139,15 +151,11 @@ footer {
 }
 
 .riga {
-    background-color: brown;
-    height: 300px;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 .linea {
-    background-color: brown;
-    height: 50px;
     justify-content: space-between;
 }
 
